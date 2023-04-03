@@ -1,0 +1,287 @@
+.navbar .navbar-brand {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+nav ul {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav li {
+  padding-inline: 15px;
+}
+
+.nav-item a {
+  color: #000000;
+}
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+
+p,
+a,
+span {
+  font-family: "Jost", sans-serif;
+}
+.hero .hero-image {
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #292f36;
+  padding-left: 200px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  border-bottom-left-radius: 22%;
+}
+.hero h1 {
+  font-size: 85px;
+  color: #292f36;
+}
+.hero p {
+  font-size: 22px;
+}
+
+.hero a {
+  font-family: "Jost", sans-serif;
+  background-color: #292f36;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero a:hover {
+  background-color: #1e2227;
+}
+a svg {
+  color: #cda274;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero h1 {
+    font-size: 75px;
+    color: #292f36;
+  }
+  .hero .hero-image {
+    padding-left: 120px;
+    padding-top: 120px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .work {
+    margin-top: 220px;
+  }
+  .footer .footer-col {
+    padding-left: 7rem;
+  }
+
+  .counter .col-lg-3 {
+    text-align: center;
+    border-right: #cda274 solid 1px;
+  }
+  .project p {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 45px;
+  }
+}
+@media screen and (max-width: 996px) {
+  .work {
+    margin-top: 80px;
+  }
+  .about .about-image img {
+    width: 650px;
+  }
+  .counter .col-lg-3 {
+    text-align: center;
+    border-right: #cda27400 solid 1px;
+    border-bottom: #cda274 solid 1px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .her .hero-image {
+    padding-left: 240px;
+    padding-top: 240px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero .hero-image h1 {
+    font-size: 40px;
+    color: #292f36;
+  }
+  .colm {
+    border-top: #c0c0c0 solid 1px;
+  }
+  .about .about-text h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .about-container {
+    text-align: center;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .about .about-image img {
+    width: 350px;
+  }
+
+  .hero .hero-image {
+    background-image: url("../images/hero.png");
+    padding-left: 50px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+  }
+  .hero .hero-image a {
+    background-color: #292f36;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.about {
+  margin-block: 150px;
+}
+.project {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.about a:hover {
+  background-color: #1e2227;
+}
+
+.work h2 {
+  font-size: 25px;
+  color: #292f36;
+}
+.work p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.work a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.about h1 {
+  font-size: 50px;
+  color: #292f36;
+}
+.about p {
+  font-size: 22px;
+  color: #4d5053;
+}
+.articles-text {
+  margin-bottom: 50px;
+}
+.articles {
+  margin-top: 150px;
+  margin-bottom: 90;
+}
+.num {
+  font-weight: 700;
+  font-size: 24px;
+}
+.about a {
+  background-color: #292f36;
+  font-size: 18px;
+  font-weight: 600;
+}
+.heads {
+  font-size: 50px;
+  font-weight: 400;
+  color: #292f36;
+}
+.pargraph {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #292f36;
+}
+.project p {
+  font-weight: 400;
+  font-size: 25px;
+}
+.project p span {
+  font-weight: 400;
+  font-size: 22px;
+  color: #4d5053;
+}
+.counter {
+  background-color: #f4f0ec;
+  padding-block: 120px;
+}
+.counter .col-lg-3 {
+  text-align: center;
+}
+.counter .exception {
+  border-right: #cda27400 0px;
+}
+.count {
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  color: #cda274;
+}
+.counter p {
+  font-size: 22px;
+  color: #575a5d;
+}
+.articles .act {
+  background-color: #f4f0ec;
+}
+.footer {
+  background-color: #fbfbfb;
+  padding: 60px 0px 20px 0px;
+}
+.footi {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+}
+.articles h1 {
+  font-size: 25px;
+}
+.footid {
+  font-size: 25px;
+  font-family: "DM Serif Display", serif;
+}
+.footer p {
+  font-size: 22px;
+}
+.articles .card {
+  border-radius: 83px;
+  margin-bottom: 20px;
+}
+.card {
+  width: 22rem;
+}
+.card-body .card-title {
+  margin-bottom: 35px;
+}
+.articles {
+  margin-bottom: 100px;
+}
+.footer .column {
+  padding-left: 10px;
+}
+.logo {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.card {
+  position: relative;
+}
+.card-in {
+  position: absolute;
+  top: 230px;
+  left: 38px;
+  padding: 6px;
+  border-radius: 8%;
+  background-color: #ffffff;
+}
